@@ -1,0 +1,63 @@
+$color-teal: #008080;
+$color-dock: #c0c0c0;
+$color-window: #c0c0c0;
+$color-button: #c0c0c0;
+$border-light: 2px solid white;
+$border-medium: 2px solid #666;
+$border-dark: 2px solid #222;
+$window-title-gradient: linear-gradient(90deg, #000184, #0f80cd);
+@mixin border-color($border-light, $border-dark) {
+    border-top: $border-light;
+    border-right: $border-dark;
+    border-bottom: $border-dark;
+    border-left: $border-light;
+}
+
+.startbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 38px;
+    width: 100vw;
+    background-color: #bdbebd;
+    border-top: 2px solid white;
+    padding: 3px;
+}
+
+.time-taskbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    top: 5px;
+    width: 100px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080 #dfdfdf #dfdfdf #808080;
+    .time-icon {
+        display: flex;
+        align-self: center;
+        margin-right: 5px;
+        width: 20px;
+        height: 15px;
+        position: relative;
+    }
+}
+
+.start-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 31px;
+    padding-right: 7px;
+    margin-top: .28rem;
+    height: 29px;
+    background-image: url('http://vignette4.wikia.nocookie.net/logopedia/images/b/b3/Windows_logo_(Pre-XP)_alt._color.svg.png/revision/latest?cb=20160311145452');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 5px center;
+}

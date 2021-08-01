@@ -1,0 +1,88 @@
+$color-teal: #008080;
+$color-dock: #c0c0c0;
+$color-window: #c0c0c0;
+$color-button: #c0c0c0;
+$border-light: 2px solid white;
+$border-medium: 2px solid #666;
+$border-dark: 2px solid #222;
+$window-title-gradient: linear-gradient(90deg, #000184, #0f80cd);
+@mixin border-color($border-light, $border-dark) {
+    border-top: $border-light;
+    border-right: $border-dark;
+    border-bottom: $border-dark;
+    border-left: $border-light;
+}
+
+.start-menu {
+    position: absolute;
+    bottom: 38px;
+    background: $color-dock;
+    @include border-color($border-light, $border-dark);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    .title-container {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 37px;
+        height: 100%;
+        background: linear-gradient( #000184 60%, #0f80cd);
+        .title {
+            position: absolute;
+            transform: rotate(-90deg);
+            color: white;
+            top: 13.4rem;
+            left: -51px;
+            font-size: 25px;
+            font-weight: bold;
+            span {
+                font-weight: 100;
+            }
+        }
+    }
+    hr {
+        margin: 0 4px 0 40px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            padding: 18px 100px 18px 100px;
+            list-style: none;
+            background-repeat: no-repeat;
+            background-position: 48px center;
+            background-size: 33px;
+            &:hover {
+                background-color: #000184;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    .menu-icon {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: -3.5rem;
+    }
+    .shutdown {
+        bottom: .5rem;
+    }
+    .logoff {
+        bottom: 3.6rem;
+    }
+    .run {
+        bottom: 6.6rem;
+    }
+    .help {
+        bottom: 10.2rem;
+    }
+    .find {
+        bottom: 13.4rem;
+    }
+    .update {
+        bottom: 16.9rem;
+    }
+}

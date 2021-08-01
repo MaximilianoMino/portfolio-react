@@ -1,0 +1,37 @@
+.w-options-container {
+    display: flex;
+    .w-option {
+        &:hover {
+            cursor: pointer;
+        }
+        img {
+            max-width: 1rem;
+            max-height: .8rem;
+            background-color: #c0c0c0;
+            margin: auto;
+            border: 2px outset;
+            padding: 0;
+            &:hover {
+                border: 2px inset;
+            }
+        }
+    }
+}
+
+.modal-options {
+    font-size: 11px;
+    width: 100%;
+    display: inline-flex;
+    color: black;
+    ul {
+        display: flex;
+        li {
+            list-style: none;
+            padding: 4px 8px;
+            border: 1px solid transparent;
+            &:hover {
+                border: 1px outset;
+            }
+        }
+    }
+}

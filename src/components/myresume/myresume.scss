@@ -1,5 +1,5 @@
     .myresume-container {
-        width: 60%;
+        max-width: 70%;
         position: absolute;
         top: 15%;
         display: flex;
@@ -96,7 +96,7 @@
         .colorunderline {
             position: absolute;
             height: 1px;
-            top: 8.3rem;
+            top: 9.3rem;
             width: 26.5%;
             @media (min-width: 900px) {
                 width: 23.2%;

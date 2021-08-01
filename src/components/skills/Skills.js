@@ -3,7 +3,7 @@ import './skills.scss';
 import WindowOptions from '../modalwindow/WindowOptions';
 import ModalOptions from '../modalwindow/ModalOptions'
 
-const Skills = ({ images, closeWindow, minimizeWindow, maximizeWindow, closeClick }) => {
+const Skills = ({ images, closeWindow, closeClick }) => {
 
   const { notepad } = images;
 
@@ -19,7 +19,7 @@ const Skills = ({ images, closeWindow, minimizeWindow, maximizeWindow, closeClic
             <div className="window">
               <div className="window-title">
                 <div className="text-title">
-                  <img src={notepad} alt="folder icon" /><p >Contact - (C:)</p>
+                  <img src={notepad} alt="folder icon" /><p >Skills - (C:)</p>
                 </div>
                 <WindowOptions
 

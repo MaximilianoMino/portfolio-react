@@ -42,7 +42,7 @@ const MyResume = ({ closeWindow, images }) => {
                 </div>
                 <div className="myresume-social">
                   <img src={calendar} alt="" className="myresume-social-icon" />
-                  <p>26 años</p>
+                  <p>27 años</p>
                 </div>
                 <div className="myresume-social">
                   <img src={experience} alt="" className="myresume-social-icon" />
@@ -50,7 +50,7 @@ const MyResume = ({ closeWindow, images }) => {
                 </div>
                 <div className="myresume-social">
                   <img src={profesion} alt="" className="myresume-social-icon" />
-                  <p>Front-end Dev</p>
+                  <p>Fullstack Dev</p>
                 </div>
               </div>
             </div>

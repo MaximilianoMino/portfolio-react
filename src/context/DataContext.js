@@ -33,6 +33,9 @@ import cursame from "../assets/projects/cursame.png";
 import date_admin from "../assets/projects/date_admin.png";
 import store from "../assets/projects/store.png";
 import samal from "../assets/projects/samal.png";
+import mindfulness from "../assets/projects/mindfulness.png";
+import qrapido from "../assets/projects/qrapido.png";
+import samalWebbApp from "../assets/projects/samalwebap.jpeg";
 import warning from "../assets/images/warning.png";
 
 export const DataContext = createContext();
@@ -78,6 +81,9 @@ export const DataProvider = ({ children }) => {
       samal,
       store,
       date_admin,
+      samalWebbApp,
+      mindfulness,
+      qrapido
     });
   }, []);
 

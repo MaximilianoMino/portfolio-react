@@ -19,7 +19,7 @@ const MyResume = ({ closeWindow, images }) => {
           <div className="myresume-window">
             <div className="window-title">
               <div className="text-title">
-                <img src={maxi_cuadrada} alt="paint icon" /><p>Maximiliano Miño </p>
+                <img src={maxi_cuadrada} alt="paint icon" /><p>Maximiliano Miño</p>
               </div>
               <WindowOptions
 
@@ -58,7 +58,7 @@ const MyResume = ({ closeWindow, images }) => {
 
 
           <div className="modal-footer">
-            <p>© Maximiliano Miño 2021</p>
+            <p>© Maximiliano Miño 2022</p>
           </div>
         </div>
         : null}

@@ -37,7 +37,7 @@ const Contact = ({ images, closeWindow, closeClick }) => {
                     <p>Mail</p>
                   </div>
                 </a>
-                <a href="https://drive.google.com/file/d/1nXQqg9W6Xi7p-ZbSk6D35ww8_baylvFP/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1tf42nxzwf_nEmG1isfcHmw5YkSgy8zmA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   <div className="social">
                     <img src={CV} alt="Logo CV" className="social-icon" />
                     <p>CV</p>

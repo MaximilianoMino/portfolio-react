@@ -1,13 +1,15 @@
     .myresume-container {
-        max-width: 70%;
+        max-width: 500px;
         position: absolute;
         top: 15%;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         margin-left: 30%;
         background-color: #c0c0c0;
         border: #dfdede 3px solid;
+        @media(max-width: 600px) {
+            max-width: 320px;
+        }
         .myresume-window {
             background-color: #c0c0c0;
             display: flex;
@@ -47,7 +49,7 @@
         background-color: white;
         color: black;
         width: 100%;
-        min-height: 30vh;
+        min-height: 400px;
         overflow-y: auto;
     }
     
@@ -55,7 +57,7 @@
         overflow-y: scroll;
         overflow-x: hidden;
         display: flex;
-        flex: 20%;
+        flex: 25%;
         flex-wrap: wrap;
         flex-direction: column;
         @media(min-width: 900px) {
@@ -79,6 +81,7 @@
             position: absolute;
             z-index: 110;
             top: 6rem;
+            left: .2em;
             font-size: 24px;
             font-weight: bold;
         }
@@ -97,7 +100,7 @@
             position: absolute;
             height: 1px;
             top: 9.3rem;
-            width: 26.5%;
+            width: 32.5%;
             @media (min-width: 900px) {
                 width: 23.2%;
             }
@@ -114,11 +117,10 @@
     
     .myresume-social {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-content: center;
-        height: 12vh;
+        margin-top: 1em;
         p {
             padding-top: .5rem;
         }
@@ -127,10 +129,11 @@
             color: #dfdede;
             background-color: #000184;
         }
-        .myresume-social-icon {
-            max-width: 60%;
-            max-height: 60%;
+        .myresume-social-icon{
+            max-width: 70px;
+            max-height: 70px;
             z-index: 0;
+            
         }
     }
     

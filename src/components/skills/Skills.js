@@ -82,7 +82,7 @@ const Skills = ({ images, closeWindow, closeClick }) => {
 
 
             <div className="modal-footer">
-              <p>© Maximiliano Miño 2021</p>
+              <p>© Maximiliano Miño 2022</p>
             </div>
           </div> : null}
     </>

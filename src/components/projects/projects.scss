@@ -3,9 +3,7 @@
     align-content: flex-start;
     background-color: #c0c0c0;
     border: #dfdede 3px solid;
-    @media(min-width: 1200px) {
-        width: 60%;
-    }
+  
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,8 +12,12 @@
     serif;
     margin-left: 20%;
     position: absolute;
-    top: 5rem;
+    top: 2rem;
     width: 82%;
+    text-align: center;
+  @media(min-width: 1200px) {
+        width: 60%;
+    }
 }
 
 .project-body {

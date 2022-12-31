@@ -31,7 +31,7 @@ const Curriculum = ({ images, closeWindow, minimizeWindow, maximizeWindow, close
               </div>
               <div className="word-body">
                 <div className="pdf-container">
-                  <p>Click aqui para <a href="https://drive.google.com/file/d/1nXQqg9W6Xi7p-ZbSk6D35ww8_baylvFP/view?usp=sharing" target="_blank" rel="noreferrer"> descargar mi CV</a> en formato PDF.</p>
+                  <p>Click aqui para <a href="https://drive.google.com/file/d/1tf42nxzwf_nEmG1isfcHmw5YkSgy8zmA/view?usp=sharing" target="_blank" rel="noreferrer"> descargar mi CV</a> en formato PDF.</p>
                 </div>
                 <div className="cv-container">
                   <header className="cv-header">
@@ -74,7 +74,7 @@ const Curriculum = ({ images, closeWindow, minimizeWindow, maximizeWindow, close
 
 
             <div className="modal-footer">
-              <p>© Maximiliano Miño</p>
+              <p>© Maximiliano Miño 2022</p>
             </div>
           </div> : null}
     </>

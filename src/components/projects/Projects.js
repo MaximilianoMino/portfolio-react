@@ -95,7 +95,7 @@ const Projects = ({ images, closeWindow, closeClick }) => {
                           <button>Sitio</button>
                         </a>
                         <a href={project.demo} target="_blank" rel="noreferrer">
-                          <button>Demo</button>
+                          <button>Github</button>
                         </a>
                       </div>
                     </div>

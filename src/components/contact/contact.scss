@@ -13,6 +13,7 @@
     background-color: #c0c0c0;
     display: flex;
     flex-direction: column;
+    min-width: 300px;
     .window-title {
         background: -webkit-gradient(linear, right top, left top, from(#1d86cd), to(#020d7f));
         background: -webkit-linear-gradient(right, #1d86cd, #020d7f);
@@ -44,7 +45,6 @@
 
 .modal-body {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
     background-color: white;
@@ -58,11 +58,13 @@
     }
     .social {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        height: 12vh;
+        width: 70px;
+        overflow: hidden;
+        height: 70px;
         p {
             padding-top: .5rem;
         }
@@ -83,7 +85,7 @@
             position: fixed;
             margin-top: -2rem;
             margin-bottom: .7rem;
-            margin-left: .55rem;
+            margin-left: .40rem;
             z-index: 100;
             opacity: .6;
         }
